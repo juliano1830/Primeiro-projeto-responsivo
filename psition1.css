@@ -1,0 +1,43 @@
+/* POSITION
+
+position: static (padrão) - Não aceita valores de top, bottom, right e left.
+position: fixed - fixa o elemento na tela, fica como que flutuando, vc move a tela mais o objeto não se mexe na tela!!
+position: sticky - age como um adesivo, fixa o elemento só onde eu determinar. Mistura do static com o fixed. Precisa definir top, right, bottom e left.
+position: relative - posição relativa à posição inicial dele. Também precisa usar top, right, bottom e left como referência.
+position: absolute - posição absoluta a algum elemento ou à página
+            - SE não tiver pai / pai fo static - Posiciona referente à página. Parecido com o relative, o relative não flutua e este sim.
+            - Se o pai NÃO for static -> Posiciona referente ao pai.
+
+
+propriedades:
+    - top
+    - bottom
+    - left
+    - right
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 200vh;
+    width: 200vw;
+}
+
+.div-dad {
+    height: 350px;
+    width: 350px;
+    background: #ff1396;
+}
+
+.div-son {
+    height: 150px;
+    width: 150px;
+    background: #ffff00;
+}
+.tananam {
+    background: red;
+    height: 100px;
+    width: 100px;
+}
